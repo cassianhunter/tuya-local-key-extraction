@@ -1,0 +1,51 @@
+# APK files
+*.apk
+*.aab
+
+# Native libraries
+*.so
+*.dylib
+
+# Certificates and keystores
+*.der
+*.pem
+*.jks
+*.keystore
+
+# BMP assets (contains steganographic keys)
+*.bmp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Logs and output
+*.log
+*.txt
+hook_output.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frida
+frida-gadget*
+*.config.so
+
+# Smali / decompiled
+smali*/
+decompiled/
